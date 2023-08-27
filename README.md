@@ -2,11 +2,16 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [What is Windows Autopilot?](#overview)
-- [What does Get-WindowsAutopilotInfo do?](#overview)
-- [Instructions](#overview)
-- [Using Get-WindowsAutopilotInfo.ps1](#overview)
-- [Get-WindowsAutopilotInfo Parameters](#overview) 
+
+- [What is Windows Autopilot?](#what-is-windows-autopilot)
+
+- [What does Get-WindowsAutopilotInfo do?](#what-does-get-windowsautopilotinfo-do)
+
+- [Instructions](#instructions)
+
+- [Using Get-WindowsAutopilotInfo.ps1](#using-get-windowsautopilotinfops1)
+
+- [Get-WindowsAutopilotInfo Parameters](#get-windowsautopilotinfo-parameters) 
 
 ## Overview 
 
