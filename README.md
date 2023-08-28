@@ -1,4 +1,4 @@
-# Using Get-WindowsAutopilotInfo to Add Devices to Windows Autopilot
+# Using Get-WindowsAutopilotInfo to Add Devices to Windows Autopilot 💻
 
 ## Table of Contents
 - [Overview](#overview)
@@ -8,19 +8,19 @@
 - [Using Get-WindowsAutopilotInfo.ps1](#using-get-windowsautopilotinfops1)
 - [Get-WindowsAutopilotInfo Parameters](#get-windowsautopilotinfo-parameters) 
 
-## Overview 
+## 🛠Overview
 
 This guide covers using the Get-WindowsAutopilotInfo PowerShell script to gather device information and add it to Windows Autopilot for deployment.
 
-### What is Windows Autopilot?
+### ⚙What is Windows Autopilot? 
 
 Windows Autopilot is a service that allows you to automatically configure and manage new Windows devices. Using Autopilot, you can register new devices, join them to Azure Active Directory and Intune, apply policies and settings, install apps, and more.
 
-### What does Get-WindowsAutopilotInfo do?
+### 🖥What does Get-WindowsAutopilotInfo do?
 
 Get-WindowsAutopilotInfo is a PowerShell script that collects information about a Windows device like the hardware hash, model, etc. It can then add that data to the Windows Autopilot deployment service. This allows the device to be automatically configured when first booted up.
 
-## Instructions
+## 🛠Instructions
 
 Follow these steps to add a new Windows device to Autopilot using Get-WindowsAutopilotInfo: 
 
@@ -42,7 +42,7 @@ Get-WindowsAutopilotInfo.ps1 -Online -AddToGroup "Windows Autopilot Devices" -Gr
 ![Get-WindowsAutoPilotInfo-1](https://github.com/DvirEzra/Add_Devices_to_Windows_Autopilot/assets/122629905/cbc16300-81e4-410e-8877-98440687a288)
 
 
-### Using Get-WindowsAutopilotInfo.ps1
+###💻Using Get-WindowsAutopilotInfo.ps1
 
 1. Open a Windows PowerShell prompt with administrative rights.
 
@@ -57,7 +57,7 @@ Get-WindowsAutopilotInfo.ps1 -Online -AddToGroup "Windows Autopilot Devices" -Gr
    ![Capture-1](https://github.com/DvirEzra/Add_Devices_to_Windows_Autopilot/assets/122629905/11cab963-4ec9-4bf5-ba71-8d406244f948)
 
 
-### Get-WindowsAutopilotInfo Parameters 
+### ⚙Get-WindowsAutopilotInfo Parameters 
 
 - `-Name` - Computer names 
 - `-OutputFile` - Output CSV file
